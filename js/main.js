@@ -27,9 +27,17 @@
             $('.back-to-top').fadeOut('slow');
         }
     });
+
     $('.back-to-top').click(function () {
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
+    });
+
+    $(document).ready(function () {
+        $('.contact-us-link').click(function () {
+            $('html, body').animate({scrollTop: $('.contact-us-page').offset().top }, 1000, 'easeInOutExpo');
+            return false;
+        });
     });
 
 

@@ -4742,7 +4742,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 800px) {
   .navbar-expand-lg {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -10691,8 +10691,8 @@ button.bg-dark:focus {
   font-style: italic !important;
 }
 
-.text-blue {
-  color: #00007c !important;
+.text-white {
+  color: #fff !important;
 }
 
 .text-primary {
@@ -10987,9 +10987,21 @@ a.text-dark:focus {
     padding: 10px 15px;
   }
 
+  .page-title {
+    font-size: 45px;
+    position: relative;
+  }
+}
+
+@media (max-width: 635px) {
+  .page-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 465px) {
   .text-primary {
     font-size: 20px;
-    position: relative;
   }
 }
 
@@ -11081,7 +11093,7 @@ a.text-dark:focus {
   display: none;
 }
 
-@media (max-width: 450px) {
+/* @media (max-width: 485px) {
   .page-title-big {
     display: none;
   }
@@ -11089,9 +11101,14 @@ a.text-dark:focus {
   .page-title-small {
     display: unset;
   }
-}
+} */
 
 .banner .row {
   margin-right: 0;
   margin-left: 0;
+}
+
+
+.banner .blue-color {
+  color: #00007c;
 }
