@@ -34,7 +34,19 @@
     });
 
     $(document).ready(function () {
-        $('.contact-us-link').click(function () {
+        $('.programme-nav-link').click(function () {
+            $('html, body').animate({scrollTop: $('.programme-page').offset().top }, 1000, 'easeInOutExpo');
+            return false;
+        });
+        $('.about-nav-link').click(function () {
+            $('html, body').animate({scrollTop: $('.about-page').offset().top }, 1000, 'easeInOutExpo');
+            return false;
+        });
+        $('.gallery-nav-link').click(function () {
+            $('html, body').animate({scrollTop: $('.gallery-page').offset().top }, 1000, 'easeInOutExpo');
+            return false;
+        });
+        $('.contactus-nav-link').click(function () {
             $('html, body').animate({scrollTop: $('.contact-us-page').offset().top }, 1000, 'easeInOutExpo');
             return false;
         });
