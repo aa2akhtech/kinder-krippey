@@ -46,6 +46,10 @@
             $('html, body').animate({scrollTop: $('.gallery-page').offset().top }, 1000, 'easeInOutExpo');
             return false;
         });
+        $('.memberships-nav-link').click(function () {
+            $('html, body').animate({scrollTop: $('.memberships-page').offset().top }, 1000, 'easeInOutExpo');
+            return false;
+        });
         $('.contactus-nav-link').click(function () {
             $('html, body').animate({scrollTop: $('.contact-us-page').offset().top }, 1000, 'easeInOutExpo');
             return false;
